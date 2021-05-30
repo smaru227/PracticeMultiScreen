@@ -37,8 +37,6 @@ public class QuizActivity extends AppCompatActivity {
             if(index == 5){
                 intent.putExtra(RESULT,score);
                 startActivity(intent);
-                return;
-
             }
             textView.setText(question[index]);
         });
@@ -50,7 +48,6 @@ public class QuizActivity extends AppCompatActivity {
             if(index == 5){
                 intent.putExtra(RESULT,score);
                 startActivity(intent);
-                return;
             }
             textView.setText(question[index]);
         });
